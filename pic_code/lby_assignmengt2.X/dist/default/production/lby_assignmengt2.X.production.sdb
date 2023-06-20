@@ -1,0 +1,325 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18446 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"48 E:\pic_code\lby_assignmengt2.X\main.c
+[v _changeflash changeflash `(v  1 e 1 0 ]
+"54
+[v _fengming fengming `(v  1 e 1 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+"52 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"57
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+[v i1_FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+"75
+[v _FLASH_WriteWord FLASH_WriteWord `(v  1 e 1 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"57 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"129
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"141
+[v _IOCAF5_ISR IOCAF5_ISR `(v  1 e 1 0 ]
+"156
+[v _IOCAF5_SetInterruptHandler IOCAF5_SetInterruptHandler `(v  1 e 1 0 ]
+"163
+[v _IOCAF5_DefaultInterruptHandler IOCAF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S22 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"427 D:/mplab/packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8\pic\include\proc\pic16f18446.h
+[u S27 . 1 `S22 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES27  1 e 1 @11 ]
+"598
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"648
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"687
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"749
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"799
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S308 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"813
+[u S314 . 1 `S308 1 . 1 0 ]
+[v _LATBbits LATBbits `VES314  1 e 1 @25 ]
+"838
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S256 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"18955
+[u S261 . 1 `S256 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES261  1 e 1 @1804 ]
+[s S194 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"19326
+[u S199 . 1 `S194 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES199  1 e 1 @1814 ]
+"19693
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"19738
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"19794
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"19815
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"19860
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19911
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"19938
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"19971
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"20666
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2074 ]
+"20728
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2075 ]
+"20791
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2076 ]
+"20853
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @2077 ]
+[s S37 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"20919
+[u S45 . 1 `S37 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES45  1 e 1 @2078 ]
+"20959
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2079 ]
+"21044
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21184
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21281
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21332
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21390
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"30584
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"30629
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"30679
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"30724
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"30769
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+[s S167 . 1 `uc 1 IOCAP0 1 0 :1:0 
+`uc 1 IOCAP1 1 0 :1:1 
+`uc 1 IOCAP2 1 0 :1:2 
+`uc 1 IOCAP3 1 0 :1:3 
+`uc 1 IOCAP4 1 0 :1:4 
+`uc 1 IOCAP5 1 0 :1:5 
+]
+"30834
+[u S174 . 1 `S167 1 . 1 0 ]
+[v _IOCAPbits IOCAPbits `VES174  1 e 1 @7997 ]
+[s S150 . 1 `uc 1 IOCAN0 1 0 :1:0 
+`uc 1 IOCAN1 1 0 :1:1 
+`uc 1 IOCAN2 1 0 :1:2 
+`uc 1 IOCAN3 1 0 :1:3 
+`uc 1 IOCAN4 1 0 :1:4 
+`uc 1 IOCAN5 1 0 :1:5 
+]
+"30884
+[u S157 . 1 `S150 1 . 1 0 ]
+[v _IOCANbits IOCANbits `VES157  1 e 1 @7998 ]
+[s S133 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+]
+"30934
+[u S140 . 1 `S133 1 . 1 0 ]
+[v _IOCAFbits IOCAFbits `VES140  1 e 1 @7999 ]
+"30969
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"31008
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"31047
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"31086
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"31125
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"31281
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"31343
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"31405
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"31467
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"31529
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"45 E:\pic_code\lby_assignmengt2.X\main.c
+[v _i i `us  1 e 2 0 ]
+"46
+[v _buffer buffer `[32]us  1 e 64 0 ]
+"47
+[v _flashAddr flashAddr `us  1 e 2 0 ]
+"54 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/pin_manager.c
+[v _IOCAF5_InterruptHandler IOCAF5_InterruptHandler `*.37(v  1 e 2 0 ]
+"80 E:\pic_code\lby_assignmengt2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"105
+} 0
+"54
+[v _fengming fengming `(v  1 e 1 0 ]
+{
+"56
+[v fengming@voice voice `us  1 a 2 13 ]
+"69
+} 0
+"58 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+{
+"60
+[v FLASH_ReadWord@GIEBitValue GIEBitValue `uc  1 a 1 12 ]
+"58
+[v FLASH_ReadWord@flashAddr flashAddr `us  1 p 2 10 ]
+"73
+} 0
+"50 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"89
+} 0
+"57 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"127
+} 0
+"156
+[v _IOCAF5_SetInterruptHandler IOCAF5_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCAF5_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 10 ]
+"158
+} 0
+"57 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"52 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"63
+} 0
+"129 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"136
+} 0
+"141
+[v _IOCAF5_ISR IOCAF5_ISR `(v  1 e 1 0 ]
+{
+"151
+} 0
+"163
+[v _IOCAF5_DefaultInterruptHandler IOCAF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"166
+} 0
+"48 E:\pic_code\lby_assignmengt2.X\main.c
+[v _changeflash changeflash `(v  1 e 1 0 ]
+{
+"52
+} 0
+"75 E:\pic_code\lby_assignmengt2.X\mcc_generated_files/memory.c
+[v _FLASH_WriteWord FLASH_WriteWord `(v  1 e 1 0 ]
+{
+"77
+[v FLASH_WriteWord@blockStartAddr blockStartAddr `us  1 a 2 6 ]
+"79
+[v FLASH_WriteWord@i i `uc  1 a 1 8 ]
+"78
+[v FLASH_WriteWord@offset offset `uc  1 a 1 5 ]
+"75
+[v FLASH_WriteWord@flashAddr flashAddr `us  1 p 2 0 ]
+[v FLASH_WriteWord@ramBuf ramBuf `*.4us  1 p 1 2 ]
+[v FLASH_WriteWord@word word `us  1 p 2 3 ]
+"92
+} 0
+"58
+[v i1_FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+{
+"60
+[v i1FLASH_ReadWord@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"58
+[v i1FLASH_ReadWord@flashAddr flashAddr `us  1 p 2 0 ]
+"73
+} 0
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+{
+"96
+[v FLASH_WriteBlock@blockStartAddr blockStartAddr `us  1 a 2 9 ]
+"98
+[v FLASH_WriteBlock@i i `uc  1 a 1 12 ]
+"97
+[v FLASH_WriteBlock@GIEBitValue GIEBitValue `uc  1 a 1 11 ]
+"94
+[v FLASH_WriteBlock@writeAddr writeAddr `us  1 p 2 3 ]
+[v FLASH_WriteBlock@flashWordArray flashWordArray `*.4us  1 p 1 5 ]
+"147
+} 0
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+{
+"151
+[v FLASH_EraseBlock@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"149
+[v FLASH_EraseBlock@startAddr startAddr `us  1 p 2 0 ]
+"174
+} 0

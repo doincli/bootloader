@@ -1,0 +1,364 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18446 ]
+[d frameptr 6 ]
+"88 E:\pic_code\led_test2.X\mcc_generated_files/tmr2.c
+[e E10862 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+]
+"94
+[e E10879 . `uc
+TMR2_T2INPPS 0
+TMR2_RESERVED 1
+TMR2_T4POSTSCALED 2
+TMR2_T6POSTSCALED 3
+TMR2_CCP1_OUT 4
+TMR2_CCP2_OUT 5
+TMR2_CCP3_OUT 6
+TMR2_CCP4_OUT 7
+TMR2_PWM6_OUT 8
+TMR2_PWM7_OUT 9
+TMR2_CMP1_OUT 10
+TMR2_CMP2_OUT 11
+TMR2_ZCD_OUTPUT 12
+TMR2_CLC1_OUT 13
+TMR2_CLC2_OUT 14
+TMR2_CLC3_OUT 15
+TMR2_CLC4_OUT 16
+TMR2_RESERVED_2 17
+]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 E:\pic_code\led_test2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"93
+[v _delay delay `(v  1 e 1 0 ]
+"50 E:\pic_code\led_test2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 E:\pic_code\led_test2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"58 E:\pic_code\led_test2.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+"60 E:\pic_code\led_test2.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"62 E:\pic_code\led_test2.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"100
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"111
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"122
+[v _TMR2_Counter8BitGet TMR2_Counter8BitGet `(uc  1 e 1 0 ]
+"136
+[v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
+"147
+[v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
+[s S431 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"511 D:/mplab/packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8\pic\include\proc\pic16f18446.h
+[u S437 . 1 `S431 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES437  1 e 1 @13 ]
+"598
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"648
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"687
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"749
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"799
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+"838
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S86 . 1 `uc 1 C5TSEL 1 0 :2:0 
+`uc 1 P6TSEL 1 0 :2:2 
+`uc 1 P7TSEL 1 0 :2:4 
+]
+"10422
+[u S90 . 1 `S86 1 . 1 0 ]
+[v _CCPTMRS1bits CCPTMRS1bits `VES90  1 e 1 @543 ]
+"10442
+[v _T2TMR T2TMR `VEuc  1 e 1 @652 ]
+"10447
+[v _TMR2 TMR2 `VEuc  1 e 1 @652 ]
+"10496
+[v _T2PR T2PR `VEuc  1 e 1 @653 ]
+"10501
+[v _PR2 PR2 `VEuc  1 e 1 @653 ]
+"10550
+[v _T2CON T2CON `VEuc  1 e 1 @654 ]
+[s S326 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"10586
+[s S330 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+]
+[s S338 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S342 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S351 . 1 `S326 1 . 1 0 `S330 1 . 1 0 `S338 1 . 1 0 `S342 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES351  1 e 1 @654 ]
+"10696
+[v _T2HLT T2HLT `VEuc  1 e 1 @655 ]
+[s S219 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"10729
+[s S224 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S230 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S235 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S241 . 1 `S219 1 . 1 0 `S224 1 . 1 0 `S230 1 . 1 0 `S235 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES241  1 e 1 @655 ]
+"10824
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @656 ]
+"10904
+[v _T2RST T2RST `VEuc  1 e 1 @657 ]
+[s S288 . 1 `uc 1 RSEL 1 0 :5:0 
+]
+"10931
+[s S290 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+[s S296 . 1 `uc 1 T2RSEL 1 0 :5:0 
+]
+[s S298 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+]
+[u S304 . 1 `S288 1 . 1 0 `S290 1 . 1 0 `S296 1 . 1 0 `S298 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES304  1 e 1 @657 ]
+"13070
+[v _PWM6DCL PWM6DCL `VEuc  1 e 1 @908 ]
+"13136
+[v _PWM6DCH PWM6DCH `VEuc  1 e 1 @909 ]
+"13306
+[v _PWM6CON PWM6CON `VEuc  1 e 1 @910 ]
+"16672
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"16810
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"17064
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+[s S120 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"17092
+[s S126 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S132 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[u S138 . 1 `S120 1 . 1 0 `S126 1 . 1 0 `S132 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES138  1 e 1 @1438 ]
+"17162
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S106 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"18955
+[u S111 . 1 `S106 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES111  1 e 1 @1804 ]
+[s S185 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"19112
+[u S192 . 1 `S185 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES192  1 e 1 @1808 ]
+"19693
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"19738
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"19794
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"19815
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"19860
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"19911
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"19938
+[v _PMD6 PMD6 `VEuc  1 e 1 @1948 ]
+"19971
+[v _PMD7 PMD7 `VEuc  1 e 1 @1949 ]
+"21044
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21184
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21281
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21332
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21390
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"30584
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"30629
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"30679
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"30724
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7995 ]
+"30769
+[v _INLVLA INLVLA `VEuc  1 e 1 @7996 ]
+"30969
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"31008
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"31047
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"31086
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @8006 ]
+"31125
+[v _INLVLB INLVLB `VEuc  1 e 1 @8007 ]
+"31281
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"31343
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"31405
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"31467
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @8017 ]
+"31529
+[v _INLVLC INLVLC `VEuc  1 e 1 @8018 ]
+"49 E:\pic_code\led_test2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+[v main@i_461 i `ui  1 a 2 56 ]
+"66
+[v main@Music_Code Music_Code `[56]uc  1 a 56 0 ]
+"78
+[v main@sound_signal sound_signal `uc  1 a 1 58 ]
+"52
+[v main@F10950 F10950 `[56]uc  1 s 56 F10950 ]
+"91
+} 0
+"93
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@n n `uc  1 a 1 wreg ]
+"95
+[v delay@i i `uc  1 a 1 2 ]
+"93
+[v delay@n n `uc  1 a 1 wreg ]
+[v delay@n n `uc  1 a 1 1 ]
+"100
+} 0
+"50 E:\pic_code\led_test2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"62 E:\pic_code\led_test2.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"60 E:\pic_code\led_test2.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"58 E:\pic_code\led_test2.X\mcc_generated_files/pwm6.c
+[v _PWM6_Initialize PWM6_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"74 E:\pic_code\led_test2.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"55 E:\pic_code\led_test2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"60 E:\pic_code\led_test2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
